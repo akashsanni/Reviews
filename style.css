@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+body{
+   background-color: rgb(228, 239, 240); 
+   text-align: center;
+}
+#underline{
+    width: auto;
+    height: 5px;
+    background-color: rgb(15, 132, 220);
+    border-radius: 5px;
+    margin: 10px 40% auto 40%;
+}
+h2{
+    font-family:"Roboto", sans-serif;
+    font-size: 40px;
+}
+.review{
+    margin:100px 100px;
+    padding: 20px 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.person-img{
+    width:190px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.author{
+    margin: 10px auto;
+
+    font-size: 24px;
+    color: rgb(0, 0, 27);
+}
+.designation{
+
+    margin: 10px auto;
+    font-size: 16px;
+    color: rgb(24, 99, 239);
+}
+.info{
+    margin: 10px auto ;
+    font-size: 18px;
+    color: rgba(6, 64, 47, 0.813);
+    line-height: 24px;
+    font-weight: 900px;
+}
+button{
+    text-align: center;
+}
+.prev-btn,.next-btn{
+    margin: 10px auto ;
+    width: auto;
+    height: auto;
+    font-size: 29px;
+    border: none;
+    background-color: white;
+    color: rgb(0, 195, 255);
+}
+:hover.prev-btn,:hover.next-btn{
+    color: rgb(0, 136, 255);
+    transition-delay: all 0.3s ease;
+    cursor: pointer;
+}
+
+.suprise-btn{
+    display:block;
+    background-color:rgba(116, 212, 247, 0.4);
+    border-radius: 13px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    margin: 10px auto ;
+
+}
+:hover.suprise-btn{
+    background-color: rgba(191, 236, 221, 0.783);
+    cursor: pointer;
+}
+
